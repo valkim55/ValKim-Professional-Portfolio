@@ -72,6 +72,51 @@ header nav ul li a:hover {
     font-style: italic;
 }
 
+/*styling HERO section*/
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    background-image: url("../images/hero-image.jpg");
+    background-size:cover;
+    background-position: 80%;
+}
+
+.hero-content {
+    width: 100%;
+    text-align: left;
+    margin: 7%;
+    padding: 15px 40px;
+    color: var(--primary-color);
+    font-size: 28px;
+    line-height: 2;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    background-color: rgba(155, 216, 149, 0.2); 
+}
+
+.hero-content h2 {
+    font-style: oblique;
+    font-size: 46px;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*styling the footer*/
 footer {
     display: flex;
