@@ -17,10 +17,7 @@ body {
 
 /*styling the HEADER*/
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
     padding: 20px 35px;
     background-color: rgba(155, 216, 149, 0.7);
     position: sticky;
@@ -28,10 +25,11 @@ header {
 }
 
 header h1 {
+    display: inline;
     font-weight: bold;
     font-size: 36px;
     color: var(--secondary-color);
-    margin: 0;
+    line-height: 2;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -48,6 +46,10 @@ header a {
 }
 
 header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 7px 0;
 }
 
@@ -160,14 +162,18 @@ header nav ul li a:hover {
     width: 100%;
     text-align: left;
     margin: 10px 20px 20px 20px;
-    padding: 20px 20px;
+    padding: 40px 20px 20px 20px;
     border: 2px solid var(--secondary-color);
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .projects img {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 600px;
 }
 
 
