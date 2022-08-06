@@ -142,21 +142,33 @@ header nav ul li a:hover {
 .my-works {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: var(--tertiary-color);
 }
 
 .my-works-header {
-
+    position: relative;
+    top: 30px; left: 60px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 5px 15px;
 }
 
 .my-works-content {
     width: 100%;
-    
+    text-align: left;
+    margin: 10px 20px 20px 20px;
+    padding: 20px 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
 }
 
-
+.projects img {
+    height: 300px;
+    width: 400px;
+}
 
 
 
