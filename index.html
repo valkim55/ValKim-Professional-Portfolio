@@ -70,70 +70,91 @@
         </div>
         <div class="my-works-content"> <!--class MY-WORKS-CONTENT is also a flexbox with 5 children: that all have the same name PROJECTS-->
             <!--CHILD 1 - PROJECT 1-->
-            <article class="projects">
-                <img src="./assets/images/project-1-img.jpg">
-                <div>
-                    <h5>Untitled</h5>
+            <article class="project-1">
+                <!--<img src="./assets/images/project-1-img.jpg">-->
+                <div class="project-content">
+                    <h3>Untitled-1</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
 
             <!--CHILD 2 - PROJECT 2-->
-            <article class="projects">
-                <img src="./assets/images/project-2-img.jpg">
-                <div>
-                    <h5>Untitled</h5>
+            <article class="project-2">
+                <!--<img src="./assets/images/project-2-img.jpg">-->
+                <div class="project-content">
+                    <h3>Untitled-2</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
 
             <!--CHILD 3 - PROJECT 3-->
-            <article class="projects">
-                <img src="./assets/images/project-3-img.jpg">
-                <div>
-                    <h5>Untitled</h5>
+            <article class="project-3">
+                <!--<img src="./assets/images/project-3-img.jpg">-->
+                <div class="project-content">
+                    <h3>Untitled-3</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
 
             <!--CHILD 4 - PROJECT 4-->
-            <article class="projects">
-                <img src="./assets/images/project-4-img.jpg">
-                <div>
-                    <h5>Run-Buddy</h5>
+            <article class="project-4">
+                <!--<img src="./assets/images/project-4-img.jpg">-->
+                <div class="project-content">
+                    <h3>Run-Buddy</h3>
                     <p>HTML | CSS</p>
                 </div>
             </article>
 
             <!--CHILD 5 - PROJECT 5-->
-            <article class="projects">
-                <img src="./assets/images/project-5-img.jpg">
-                <div>
-                    <h5>Horiseon</h5>
+            <article class="project-5">
+                <!--<img src="./assets/images/project-5-img.jpg">-->
+                <div class="project-content">
+                    <h3>Horiseon</h3>
                     <p>HTML | CSS</p>
                 </div>
             </article>
+
         </div>
     </section>
 
     <!--RESUME-->
-    <section id="my-resume">
-        <div>
+    <section id="my-resume" class="my-resume">
+        <div class="my-resume-header">
             <h2>My Resume</h2>
         </div>
-        <div>
-            <iframe src="./assets/resume-placeholder.pdf" style="border:0" width="80%" height="600px"></iframe>
-
+        <div class="my-resume-content">
+            <iframe src="./assets/resume-placeholder.pdf" width="80%" height="600px"></iframe>
         </div>
 
     </section>
 
     <!--CONTACT ME-->
-    <section id="contact-me">
-        <div>
+    <section id="contact-me" class="contact-me">
+        <div class="contact-me-header">
             <h2>Contact Me</h2>
         </div>
-        <div>two columns: on the left my github, linkedIn and twitter profiles, and on the right my email number and location</div>
+        
+        <div class="contact-me-content">
+            <div class="social-media">
+                <ul>
+                    <li>LinkedIn Profile</li>
+                    <li>GitHub Profile</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+
+            <div class="personal-contact-info">
+                <ul>
+                    <li>Email:</li>
+                    <li>codingforlife@mydesktop.com</li>
+                    <br />
+                    <li>Phone number:</li>
+                    <li>111-222-3344</li>
+                </ul>
+            </div>
+            
+        </div>
+
     </section>
 
     <footer>
