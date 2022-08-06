@@ -102,10 +102,59 @@ header nav ul li a:hover {
     color: var(--primary-color);
 }
 
+/*styling BIO section*/
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.bio-header {
+    position: relative;
+    top: 30px; right: 60px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 5px 15px;
+}
+
+.bio-content {
+    width: 100%;
+    text-align: left;
+    margin: 10px 20px 20px 20px;
+    padding: 15px 90px 15px 20px;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+}
+
+.bio-content p {
+    font-size: 18px;
+    line-height: 1.4;
+}
 
 
 
 
+/*styling MY WORKS section*/
+.my-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiary-color);
+}
+
+.my-works-header {
+
+}
+
+.my-works-content {
+    width: 100%;
+    
+}
 
 
 
