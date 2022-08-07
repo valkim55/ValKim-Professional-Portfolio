@@ -289,7 +289,41 @@ iframe {
 }
 
 
+/*styling CONTACT-ME section*/
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
 
+.contact-me-content {
+    width: 100%;
+    margin: 10px 20px 40px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+.contact-me-header {
+    position: relative;
+    top: 30px; left: 60px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 5px 15px;
+}
+
+.social-media div {
+    
+}
+
+
+  
 
 
 
