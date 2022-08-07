@@ -272,7 +272,26 @@ iframe {
     padding: 5px 15px;
 }
 
+.social-media {
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 30px;
+}
 
+.my-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
 
   
