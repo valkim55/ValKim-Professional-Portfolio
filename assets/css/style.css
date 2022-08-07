@@ -20,7 +20,13 @@ header {
     text-align: center;
     padding: 20px 35px;
     background-color: rgba(155, 216, 149, 0.7);
+    background-image: url("../images/header-image.jpg");
+    background-size:cover;
+    background-position: cover;
+    background-attachment: fixed;
+    position: -webkit-sticky;
     position: sticky;
+    top: 0;
     z-index: 9999;
 }
 
@@ -83,6 +89,7 @@ header nav ul li a:hover {
     background-image: url("../images/hero-image.jpg");
     background-size:cover;
     background-position: 80%;
+    background-attachment: fixed;
 }
 
 .hero-content {
@@ -172,72 +179,33 @@ header nav ul li a:hover {
 }
 
 .project-1 {
-    margin: 20px 10px;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
+    margin: 10px 10px;
     border: 7px solid var(--primary-color);
-    background-image: url(../images/project-1-img.jpg);
-    background-size:cover;
 }
 
 .project-2 {
-    margin: 20px 10px;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
-    border: 7px solid var(--primary-color);
-    background-image: url(../images/project-2-img.jpg);
-    background-size:cover;    
+    margin: 10px 10px;
+    border: 7px solid var(--primary-color);  
 }
 
 .project-3 {
-    margin: 20px 10px;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
-    border: 7px solid var(--primary-color);
-    background-image: url(../images/project-3-img.jpg);
-    background-size:cover;   
+    margin: 10px 10px;
+    border: 7px solid var(--primary-color);  
 }
 
 .project-4 {
-    margin: 20px 10px;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
+    margin: 10px 10px;
     border: 7px solid var(--primary-color);
-    background-image: url(../images/project-4-img.jpg);
-    background-size:cover;
 }
 
 .project-5 {
-    margin: 20px 10px;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
+    margin: 10px 10px;
     border: 7px solid var(--primary-color);
-    background-image: url(../images/project-5-img.jpg);
-    background-size:cover;
 }
 
+
+
 .project-content {
-    width: 600px;
     background-color:rgba(155, 216, 149, 0.7);
     color: var(--secondary-color);
     border-style: solid;
