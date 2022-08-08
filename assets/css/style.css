@@ -307,8 +307,8 @@ footer h3 {
     margin: 0;
 }
 
-/*MEDIA QUERY FOR 980px AND SMALLER*/
-@media screen and (max-width: 980px) {
+
+/*@media screen and (max-width: 980px) {
     header nav ul li a {
         padding: 10px 15px;
         font-weight: bolder;
@@ -353,7 +353,7 @@ footer h3 {
     }
 }
 
-/*MEDIA QUERY FOR 768px AND SMALLER*/
+
 @media screen and (max-width: 768px) {
     header nav ul li a {
         padding: 5px;
@@ -387,7 +387,7 @@ footer h3 {
     }
 }
 
-/*MEDIA QUERY FOR 575px AND SMALLER*/
+
 @media screen and (max-width: 575px) {   
     header {
         text-align: center;
@@ -402,9 +402,7 @@ footer h3 {
     
     header nav ul li a {
         padding: 10px 10px;
-        
         font-size: 1.3vw;
-        
     }
 
     iframe {
@@ -412,9 +410,30 @@ footer h3 {
         background-image: url(../images/resume-placeholder-img.png);
         background-size: contain;
         background-repeat: no-repeat;
-        height: 350px; 
+        height: 250px; 
         margin: 0;
         padding: 0;
         border: 0;
     }
-}
+
+    .contact-me-content {
+        width: 80%;
+        margin: 10px 50px 40px 50px;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .my-links {
+        display: inline;
+    }
+
+    footer {
+        line-height: 1.5;
+    }
+    
+    footer h3 {
+        font-size: 18px;
+    }
+}*/
