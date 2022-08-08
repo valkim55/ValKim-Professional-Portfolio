@@ -156,30 +156,39 @@ header nav ul li a:hover {
 
 /*styling MY WORKS section*/
 .my-works {
+    width: 100%;
+    background-image: url("../images/main-bg-image.jpg");
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../images/main-bg-image.jpg");
-    background-size: cover;
-    background-color: var(--tertiary-color);
 }
 
 .my-works-content {
-    width: 80%;
-    text-align: left;
+    
+    margin: 20px 50px 20px 50px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 30px;
     display: flex;
-    flex-wrap: wrap-reverse; /*went for wrap-reverse because of uneven number of elements and because my first application needs to me bigger so this way i can let it take up more space*/
-    justify-content: center;
+    flex-wrap: wrap-reverse; 
+    justify-content: space-around;
     align-items: center;
-    margin: 0 50px 20px 50px;
-    padding: 20px 20px 20px 20px;
 }
 
 .projects {
-    margin: 20px 50px;
+    margin: 10px;
     border: 7px solid var(--extra-color);
+}
+
+.first-project {
+    margin: 10px;
+    border: 7px solid var(--extra-color);
+}
+
+.projects img {
+    width: 600px;
+    height: 400px;
 }
 
 .projects-content {

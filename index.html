@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valeriya Kim - Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media-queries.css" />
 </head>
 
 <body>
@@ -66,46 +67,72 @@
     </section>
     
     <!--WORKS-->
-    <section id="my-works" class="my-works"> <!--class MY-WORKS is a flexbox with 2 children: my-works-header and my-works-content-->
+    <section id="my-works" class="my-works"> <!--     class MY-WORKS is a flexbox with 2 children: my-works-header and my-works-content-->
         <div class="my-header">
             <h2>MY WORKS</h2>
         </div>
         <div class="my-works-content"> <!--class MY-WORKS-CONTENT is also a flexbox with 5 children: that all have the same name PROJECTS-->
             <article class="projects">
-                <a target="_blank" href="https://github.com/valkim55"><img src="./assets/images/project-1-img.jpg" width="600" height="300" alt="a picture of a code serving as a placeholder for my future projects"></a>
+                <div>
+                    <a target="_blank" href="https://github.com/valkim55">
+                        <img src="./assets/images/project-1-img.jpg" alt="a picture of a code serving as a placeholder for my future projects">
+                    </a>
+                </div>
                 <div class="projects-content">
                     <h3>work in progress...</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
+
             <article class="projects">
-                <a target="_blank" href="https://github.com/valkim55"><img src="./assets/images/project-2-img.jpg" width="600" height="300" alt="a picture of a code serving as a placeholder for my future projects"></a>
+                <div>
+                    <a target="_blank" href="https://github.com/valkim55">
+                        <img src="./assets/images/project-2-img.jpg" alt="a picture of a code serving as a placeholder for my future projects">
+                    </a>
+                </div>
                 <div class="projects-content">
                     <h3>work in progress...</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
+
             <article class="projects">
-                <a target="_blank" href="https://github.com/valkim55"><img src="./assets/images/project-3-img.jpg" width="600" height="300" alt="a picture of a code serving as a placeholder for my future projects"></a>
+                <div>
+                    <a target="_blank" href="https://github.com/valkim55">
+                        <img src="./assets/images/project-3-img.jpg" alt="a picture of a code serving as a placeholder for my future projects">
+                    </a>
+                </div>
                 <div class="projects-content">
                     <h3>work in progress...</h3>
                     <p>coming soon...</p>
                 </div>
             </article>
+
             <article class="projects">
-                <a target="_blank" href="https://valkim55.github.io/Horiseon-Starter-Code-Refactor/"><img src="./assets/images/horiseon-image.png" width="600" height="300" alt="a screenshot of Horiseon landing page" class="first-projects"></a>
+                <div>
+                    <a target="_blank" href="https://valkim55.github.io/Horiseon-Starter-Code-Refactor/">
+                        <img src="./assets/images/horiseon-image.png" alt="a screenshot of Horiseon landing page" class="first-projects">
+                    </a>
+                </div>
                 <div class="projects-content">
                     <h3>Horiseon</h3>
                     <p>HTML | CSS</p>
                 </div>
             </article>
-            <article class="projects"> <!--the first project is the last in order because i used flex-wrap:wrap-reverse-->
-                <a target="_blank" href="https://valkim55.github.io/run-buddy/"><img src="./assets/images/run-buddy-image.png" width="800" height="500" alt="a screenshot of Run-Buddy landing page"></a>
+
+            
+            <article class="first-project"> 
+                <div>
+                    <a target="_blank" href="https://valkim55.github.io/run-buddy/">
+                        <img src="./assets/images/run-buddy-image.png" alt="a screenshot of Run-Buddy landing page">
+                    </a>
+                </div>
                 <div class="projects-content">
                     <h3>Run-Buddy</h3>
                     <p>HTML | CSS</p>
-                    </div>
+                </div>
             </article>
+
         </div>
     </section>
 
