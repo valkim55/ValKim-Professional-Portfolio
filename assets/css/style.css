@@ -20,7 +20,7 @@ body {
 header {
     text-align: center;
     padding: 15px 35px;
-    background-image: url("../images/header-hero-image.jpg");
+    background-image: url("../images/main-bg-image.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: -webkit-sticky;
@@ -45,7 +45,7 @@ header h1:hover {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none; /*to get rid of the link appearance*/
     color: var(--secondary-color);
 }
 
@@ -85,7 +85,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    background-image: url("../images/header-hero-image.jpg");
+    background-image: url("../images/main-bg-image.jpg");
     background-size:cover;
     background-position: 40%;
     background-attachment: fixed;
@@ -110,13 +110,17 @@ header nav ul li a:hover {
     color: var(--extra-color);
 }
 
+.hero-content p {
+    font-size: 20px;
+    font-style: italic;
+}
+
 /*styling BIO section*/
 .bio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /*background-color: var(--primary-color);*/
     background-image: linear-gradient(to bottom right, var(--extra-color), var(--primary-color));
 }
 
@@ -127,8 +131,7 @@ header nav ul li a:hover {
 }
 
 .my-header {
-    position: relative;
-    top: 10px; left: 880px;
+    margin-top: 20px;
     border: 4px solid var(--extra-color);
     border-radius: 30px;
     background-color: rgba(148, 108, 108, 0.453);
@@ -156,23 +159,22 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-image: url("../images/header-hero-image.jpg");
+    background-image: url("../images/main-bg-image.jpg");
     background-size: cover;
     background-color: var(--tertiary-color);
 }
 
 .my-works-content {
-    width: 100%;
+    width: 80%;
     text-align: left;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse; /*went for wrap-reverse because of uneven number of elements and because my first application needs to me bigger so this way i can let it take up more space*/
     justify-content: center;
     align-items: center;
-    margin: 20px 50px 20px 50px;
-    padding: 40px 20px 20px 20px;
-    border: 2px solid var(--secondary-color);
-    border-radius: 30px;
+    margin: 0 50px 20px 50px;
+    padding: 20px 20px 20px 20px;
 }
 
 .projects {
@@ -229,7 +231,7 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/header-hero-image.jpg");
+    background-image: url("../images/main-bg-image.jpg");
     background-size: cover;
 }
 
