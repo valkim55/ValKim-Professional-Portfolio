@@ -219,6 +219,8 @@ header nav ul li a:hover {
 }
 
 iframe {
+    width: 80%; 
+    height: 600px; 
     margin: 10px;
     padding: 20px;
     border: 10px solid var(--extra-color);
@@ -305,4 +307,114 @@ footer h3 {
     margin: 0;
 }
 
+/*MEDIA QUERY FOR 980px AND SMALLER*/
+@media screen and (max-width: 980px) {
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: bolder;
+        font-size: 1.4vw;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
 
+    .bio img {
+        height: 150px;
+        width: 150px;
+        float: right;
+    }
+
+    .bio-content p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .my-works-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .my-resume-content {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border: 0;
+        border-radius: 0;
+    }
+
+    iframe {
+        width: 90%; 
+        background-image: url(../images/resume-placeholder-img.png);
+        background-size: cover;
+        height: 350px; 
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+/*MEDIA QUERY FOR 768px AND SMALLER*/
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        padding: 5px;
+        font-weight: bolder;
+        font-size: 20px;
+        text-shadow: 0;
+    }
+
+    .hero-content h2 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    iframe {
+        width: 100%; 
+        background-image: url(../images/resume-placeholder-img.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 350px; 
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .projects img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/*MEDIA QUERY FOR 575px AND SMALLER*/
+@media screen and (max-width: 575px) {   
+    header {
+        text-align: center;
+        padding: 15px 35px;
+        background-color: var(--extra-color);
+        position: relative;
+    }
+    
+    header nav ul {
+        flex-wrap: nowrap;
+    }
+    
+    header nav ul li a {
+        padding: 10px 10px;
+        
+        font-size: 1.3vw;
+        
+    }
+
+    iframe {
+        width: 100%; 
+        background-image: url(../images/resume-placeholder-img.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 350px; 
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
