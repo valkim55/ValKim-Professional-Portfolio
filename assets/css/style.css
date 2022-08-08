@@ -19,7 +19,7 @@ body {
 /*styling the HEADER*/
 header {
     text-align: center;
-    padding: 20px 35px;
+    padding: 15px 35px;
     background-image: url("../images/header-hero-image.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--tertiary-color);
-    line-height: 2;
+    line-height: 1.5;
     text-shadow: 0 0 10px rgba(93, 76, 58, 0.8);
 }
 
@@ -120,7 +120,7 @@ header nav ul li a:hover {
     background-image: linear-gradient(to bottom right, var(--extra-color), var(--primary-color));
 }
 
-.bio-header {
+.my-header {
     position: relative;
     top: 10px; left: 880px;
     border: 4px solid var(--extra-color);
@@ -154,16 +154,6 @@ header nav ul li a:hover {
     background-image: url("../images/header-hero-image.jpg");
     background-size: cover;
     background-color: var(--tertiary-color);
-    
-}
-
-.my-works-header {
-    position: relative;
-    top: 10px; left: 880px;
-    border: 4px solid var(--extra-color);
-    border-radius: 30px;
-    background-color: rgba(148, 108, 108, 0.453);
-    padding: 5px 15px;
 }
 
 .my-works-content {
@@ -199,31 +189,17 @@ header nav ul li a:hover {
     font-style: oblique;
 }
 
-
-
-
 /*styling MY RESUME section*/
 .my-resume {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*background-color: var(--primary-color);*/
     background-image: linear-gradient(to bottom right, var(--extra-color), var(--primary-color));
-    
-}
-
-.my-resume-header {
-    position: relative;
-    top: 10px; left: 880px;
-    border: 4px solid var(--extra-color);
-    border-radius: 30px;
-    background-color: rgba(148, 108, 108, 0.453);
-    padding: 5px 15px;
 }
 
 .my-resume-content {
     width: 100%;
-    margin: 20px 50px 40px 50px;
+    margin: 20px 50px 20px 50px;
     padding: 10px 10px 10px 10px;
     border: 2px solid var(--secondary-color);
     border-radius: 30px;
@@ -240,66 +216,67 @@ iframe {
     border: 10px solid var(--extra-color);
 }
 
-
 /*styling CONTACT-ME section*/
 .contact-me {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url("../images/header-hero-image.jpg");
     background-size: cover;
 }
 
-.contact-me-content {
-    width: 100%;
-    margin: 20px 50px 40px 50px;
-    padding: 10px 10px 10px 10px;
-    border: 2px solid var(--secondary-color);
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start; 
-}
-
 .contact-me-header {
-    position: relative;
-    top: 10px; left: 880px;
+    margin-top: 20px;
     border: 4px solid var(--extra-color);
     border-radius: 30px;
     background-color: rgba(148, 108, 108, 0.453);
     padding: 5px 15px;
 }
 
-.social-media {
+.contact-me-content {
+    width: 50%;
+    margin: 10px 50px 40px 50px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.my-info {
     text-align: center;
     margin: 15px;
     padding: 20px;
-    border: 2px solid var(--secondary-color);
-    border-radius: 30px;
+    border: 10px solid var(--extra-color);
+    background-color: rgba(223, 189, 154, 0.453);
+    flex: 1;
+}
+
+.contact-me-content h3{
+    padding: 20px;
 }
 
 .my-links {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
 }
 
 .box {
+    margin: 10px;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-
-  
-
-
-
-
-
+.box a, p {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+}
 
 /*styling the footer*/
 footer {
