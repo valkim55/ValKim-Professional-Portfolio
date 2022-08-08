@@ -17,17 +17,16 @@
         line-height: 1.4;
     }
 
-    .projects {
-        width: 500px;
-        height: 300px;
+    .my-works-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    .projects img {
-        width: auto;
-        height: auto;
-    }
-
-    .first-project {
+    /*.first-project {
         width: 600px;
         height: 400px;
     }
@@ -35,7 +34,7 @@
     .first-project img {
         width: 600px;
         height: 400px;
-    }
+    }*/
 
     .my-resume-content {
         width: 100%;
@@ -71,6 +70,15 @@
 
     .hero-content p {
         font-size: 16px;
+    }
+
+    .my-works-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: space-around;
     }
 
     iframe {

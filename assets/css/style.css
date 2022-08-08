@@ -177,11 +177,7 @@ header nav ul li a:hover {
 }
 
 .projects {
-    margin: 10px;
-    border: 7px solid var(--extra-color);
-}
-
-.first-project {
+    flex: 0 0 auto;
     margin: 10px;
     border: 7px solid var(--extra-color);
 }
@@ -202,6 +198,30 @@ header nav ul li a:hover {
 }
 
 .projects-content p {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.first-project {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    border: 7px solid var(--extra-color);
+}
+
+.first-project-content {
+    background-color: rgba(148, 108, 108, 0.453);
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 7px 0 0 0;
+    border-color: var(--extra-color);
+    padding: 5px 15px;
+    line-height: 2.5;
+}
+
+.first-project-content p {
     font-size: 20px;
     font-style: oblique;
 }
