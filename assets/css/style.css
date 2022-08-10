@@ -156,35 +156,53 @@ header nav ul li a:hover {
 
 /*styling MY WORKS section*/
 .my-works {
-    width: 100%;
+    
     background-image: url("../images/main-bg-image.jpg");
     background-size: cover;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .my-works-content {
-    
     margin: 20px 50px 20px 50px;
     padding: 10px 10px 10px 10px;
     border: 2px solid var(--secondary-color);
     border-radius: 30px;
     display: flex;
-    flex-wrap: wrap-reverse; 
+    flex-direction: column;
+}
+
+.top-row {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-row {
+
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .projects {
-    flex: 0 0 auto;
     margin: 10px;
     border: 7px solid var(--extra-color);
 }
 
 .projects img {
-    width: 600px;
-    height: 400px;
+    width: 50%;
+}
+
+.horiseon-project {
+    margin: 10px;
+    border: 7px solid var(--extra-color);
+}
+
+.horiseon-project img {
+    width: 50%;
 }
 
 .projects-content {
@@ -203,12 +221,12 @@ header nav ul li a:hover {
 }
 
 .first-project {
-    flex: 1 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin: 10px;
     border: 7px solid var(--extra-color);
+}
+
+.first-project img {
+    width: 50%;
 }
 
 .first-project-content {
