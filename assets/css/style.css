@@ -176,14 +176,15 @@ header nav ul li a:hover {
 .top-row {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .bottom-row {
 
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
 }
 
@@ -193,7 +194,8 @@ header nav ul li a:hover {
 }
 
 .projects img {
-    width: 50%;
+    width: 30vw;
+    height: 30vh;
 }
 
 .horiseon-project {
@@ -202,7 +204,8 @@ header nav ul li a:hover {
 }
 
 .horiseon-project img {
-    width: 50%;
+    width: 25vw;
+    height: 35vh;
 }
 
 .projects-content {
@@ -226,7 +229,8 @@ header nav ul li a:hover {
 }
 
 .first-project img {
-    width: 50%;
+    width: 50vw;
+    height: 40vh;
 }
 
 .first-project-content {
