@@ -23,3 +23,5 @@ https://valkim55.github.io/
 
 
 #### This is what a webpage should look like
+![portfolio-scrn1](./assets/images/portfolio-scrn1.JPG)
+![portfolio-scrn2](./assets/images/portfolio-scrn2.JPG)
