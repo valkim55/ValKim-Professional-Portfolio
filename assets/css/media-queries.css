@@ -18,23 +18,19 @@
     }
 
     .my-works-content {
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: center;
     }
 
-    /*.first-project {
-        width: 600px;
-        height: 400px;
+    .projects-image img {
+        width: 25vw;
+        height: 20vh;
     }
-    
-    .first-project img {
-        width: 600px;
-        height: 400px;
-    }*/
+
+    .run-buddy-image img {
+        width: 35vw;
+        height: 25vh;
+    }
 
     .my-resume-content {
         width: 100%;
@@ -72,13 +68,27 @@
         font-size: 16px;
     }
 
-    .my-works-content {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: space-around;
+    .projects-image img {
+        width: 25vw;
+        height: 15vh;
+    }
+
+    .run-buddy-image img {
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .projects-content {
+        padding: 5px 5px;
+        line-height: 1.5;
+    }
+
+    .projects-content h3 {
+        font-size: 16px;
+    }
+
+    .projects-content p {
+        font-size: 14px;
     }
 
     iframe {
@@ -90,11 +100,6 @@
         margin: 0;
         padding: 0;
         border: 0;
-    }
-
-    .projects img {
-        height: 100%;
-        width: 100%;
     }
 
     footer {
@@ -122,6 +127,29 @@
     header nav ul li a {
         padding: 10px 10px;
         font-size: 16px;
+    }
+
+    .projects-image img {
+        width: 20vw;
+        height: 8vh;
+    }
+
+    .run-buddy-image img {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .projects-content {
+        padding: 3px 3px;
+        line-height: 1.5;
+    }
+
+    .projects-content h3 {
+        font-size: 14px;
+    }
+
+    .projects-content p {
+        font-size: 12px;
     }
 
     iframe {

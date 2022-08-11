@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -156,7 +156,6 @@ header nav ul li a:hover {
 
 /*styling MY WORKS section*/
 .my-works {
-    
     background-image: url("../images/main-bg-image.jpg");
     background-size: cover;
     display: flex;
@@ -165,47 +164,32 @@ header nav ul li a:hover {
 }
 
 .my-works-content {
+    
     margin: 20px 50px 20px 50px;
     padding: 10px 10px 10px 10px;
     border: 2px solid var(--secondary-color);
     border-radius: 30px;
     display: flex;
-    flex-direction: column;
-}
-
-.top-row {
-    
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 }
 
-.bottom-row {
-
+.rows {
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .projects {
     margin: 10px;
     border: 7px solid var(--extra-color);
-}
+} 
 
-.projects img {
-    width: 30vw;
-    height: 30vh;
-}
-
-.horiseon-project {
-    margin: 10px;
-    border: 7px solid var(--extra-color);
-}
-
-.horiseon-project img {
+.projects-image img {
     width: 25vw;
-    height: 35vh;
+    height: 30vh;
 }
 
 .projects-content {
@@ -223,29 +207,9 @@ header nav ul li a:hover {
     font-style: oblique;
 }
 
-.first-project {
-    margin: 10px;
-    border: 7px solid var(--extra-color);
-}
-
-.first-project img {
-    width: 50vw;
+.run-buddy-image img {
+    width: 37vw;
     height: 40vh;
-}
-
-.first-project-content {
-    background-color: rgba(148, 108, 108, 0.453);
-    color: var(--secondary-color);
-    border-style: solid;
-    border-width: 7px 0 0 0;
-    border-color: var(--extra-color);
-    padding: 5px 15px;
-    line-height: 2.5;
-}
-
-.first-project-content p {
-    font-size: 20px;
-    font-style: oblique;
 }
 
 /*styling MY RESUME section*/
@@ -359,132 +323,3 @@ footer h3 {
 }
 
 
-/*@media screen and (max-width: 980px) {
-    header nav ul li a {
-        padding: 10px 15px;
-        font-weight: bolder;
-        font-size: 1.4vw;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    }
-
-    .bio img {
-        height: 150px;
-        width: 150px;
-        float: right;
-    }
-
-    .bio-content p {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    .my-works-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 20px 20px 20px;
-    }
-
-    .my-resume-content {
-        width: 100%;
-        margin: 10px;
-        padding: 10px;
-        border: 0;
-        border-radius: 0;
-    }
-
-    iframe {
-        width: 90%; 
-        background-image: url(../images/resume-placeholder-img.png);
-        background-size: cover;
-        height: 350px; 
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    header nav ul li a {
-        padding: 5px;
-        font-weight: bolder;
-        font-size: 20px;
-        text-shadow: 0;
-    }
-
-    .hero-content h2 {
-        font-size: 36px;
-    }
-
-    .hero-content p {
-        font-size: 16px;
-    }
-
-    iframe {
-        width: 100%; 
-        background-image: url(../images/resume-placeholder-img.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 350px; 
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-
-    .projects img {
-        height: 100%;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 575px) {   
-    header {
-        text-align: center;
-        padding: 15px 35px;
-        background-color: var(--extra-color);
-        position: relative;
-    }
-    
-    header nav ul {
-        flex-wrap: nowrap;
-    }
-    
-    header nav ul li a {
-        padding: 10px 10px;
-        font-size: 1.3vw;
-    }
-
-    iframe {
-        width: 100%; 
-        background-image: url(../images/resume-placeholder-img.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 250px; 
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-
-    .contact-me-content {
-        width: 80%;
-        margin: 10px 50px 40px 50px;
-        padding: 10px 10px 10px 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .my-links {
-        display: inline;
-    }
-
-    footer {
-        line-height: 1.5;
-    }
-    
-    footer h3 {
-        font-size: 18px;
-    }
-}*/
